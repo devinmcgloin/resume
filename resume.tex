@@ -22,7 +22,7 @@
 
 \documentclass{resume} % Use the custom resume.cls style
 
-\usepackage[left=0.75in,top=0.6in,right=0.75in,bottom=0.6in]{geometry} % Document margins
+\usepackage[left=0.5in,top=0.5in,right=0.5in,bottom=0.5in]{geometry} % Document margins
 
 \name{Devin McGloin} % Your name
 \address{(909)~$\cdot$~801~$\cdot$~4429 \\ devin@devinmcgloin.com} % Your phone number and email
@@ -30,38 +30,60 @@
 
 \begin{document}
 
+
+%----------------------------------------------------------------------------------------
+%	ABOUT SECTION
+%----------------------------------------------------------------------------------------
+
+%\begin{rSection}{Profile}
+
+%\end{rSection}
+
 %----------------------------------------------------------------------------------------
 %	EDUCATION SECTION
 %----------------------------------------------------------------------------------------
 
 \begin{rSection}{Education}
 
-{\bf New York University} \hfill {\em May 2017} \\ 
-B.S. in Computer Science \\
-Global Liberal Studies \\
+\begin{rSubsection}{New York University}{May 2017}{BS Computer Science}{New York, NY}
+\item Major GPA 3.3
+\end{rSubsection}
 
 \end{rSection}
-
 %----------------------------------------------------------------------------------------
 %	CURRENT PROJECTS  SECTION
 %----------------------------------------------------------------------------------------
 
 \begin{rSection}{Projects}
 
-{\bf UDB} \hfill {\em 2016} \\ 
-{\em github.com/devinmcgloin/udb}\\
-UDB is a universal data structure system that dynamically optimizes abstract collections. It is based on the Java Collections framework. \\
+
+\begin{rSubsection}{UDB}{December 2015 -  Current}{github.com/devinmcgloin/udb}{data-structures, API design}
+\item Designed a data structure system that dynamically optimizes abstract collections while integrating with the Java Collections Framework. 
+\item Performance Profiling, System Design, Dynamic Optimization
+\end{rSubsection}
+%------------------------------------------------
+
+
+\begin{rSubsection}{Common Algorithms}{October 2015 -  Current}{github.com/devinmcgloin/java-algorithms}{algorithms, data-structures}
+\item Implemented common java algorithms and data-structures, Including sorts, trees, lists, graphs, and simple compression algorithms.
+\end{rSubsection}
+
+
+%------------------------------------------------
 
 %{\bf Weekly Paper} \hfill {\em 2016}\\
 %{\em devinmcgloin.com/weekly-paper}\\
 %Each week I write about an influential paper in computer science, or a related field. \\ 
 
-{\bf AIR} \hfill {\em 2015} \\ 
-{\em devinmcgloin.com/AIR}\\
-AIR operated under the assumption that content is key to intelligence. The central idea of the system was to represent content in a universal manner, let that content form a web of relationships, and then parse that web for information useful to NLP, and other tasks. \\
+%------------------------------------------------
 
+\begin{rSubsection}{AIR}{November 2014 -  December 2015}{devinmcgloin.com/AIR}{knowledge representation, API design, performance profiling}
+\item Designed AIR, a knowledge representation system that models content about the world as universally as possible. 
+\item 
+
+% AIR operated under the assumption that content is key to intelligence. The central idea of the system was to represent content in a universal manner, let that content form a web of relationships, and then parse that web for information useful to NLP, and other tasks.
+\end{rSubsection}
 \end{rSection}
-
 %----------------------------------------------------------------------------------------
 %	WORK EXPERIENCE SECTION
 %----------------------------------------------------------------------------------------
@@ -75,14 +97,14 @@ AIR operated under the assumption that content is key to intelligence. The centr
 %------------------------------------------------
 
 \begin{rSubsection}{Classic Car Club Manhattan}{September 2013 - May 2014}{Intern}{New York, NY}
-\item Managed a weekly rotating parts catalog, as well as understanding and maintaining the mechanical systems present on modern vehicles.
-\item Learned the foundations of system troubleshooting, preventative maintenance as well as organizing a shop overhaul.
+\item Managed a quickly rotating parts catalog, as well as understanding and maintaining the mechanical systems present on modern vehicles and organizing a shop overhaul.
 \end{rSubsection}
 
 %------------------------------------------------
 
 \begin{rSubsection}{Boy Scouts of America}{October 2009 - May 2013}{Eagle Scout}{Redlands, CA}
-\item Organized and completed a service project consisting of over 600 volunteer hours and investment of \$4,000. Procured donations from the community and large donors such as Home Depot, Hines, Scotts and DIG Corp. 
+\item Organized and completed a service project consisting of over 600 volunteer hours and investment of \$4,000.
+\item Procured donations from the community and large donors such as Home Depot, Hines, Scotts and DIG Corp.
 \end{rSubsection}
 
 \end{rSection}
@@ -91,12 +113,13 @@ AIR operated under the assumption that content is key to intelligence. The centr
 %	TECHNICAL STRENGTHS SECTION
 %----------------------------------------------------------------------------------------
 
-\begin{rSection}{Technical Strengths}
+\begin{rSection}{Technical Strengths}{In order of fluency}
 
 \begin{tabular}{ @{} >{\bfseries}l @{\hspace{6ex}} l }
-Computer Languages & Java, Python, Latex, C,  \\
+Computer Languages & Java, Python, Latex, C  \\
 Protocols \& APIs & XML, JSON \\
-Tools & Git, Vim, GitHub
+Tools & Git, Vim, GitHub, Travis CI, Unix Command Line, Maven\\
+Exposure to & Haskell, Lisp, Clojure, Prolog, Bash\\
 \end{tabular}
 
 \end{rSection}
