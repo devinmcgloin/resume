@@ -22,7 +22,7 @@
 
 \documentclass{resume} % Use the custom resume.cls style
 
-\usepackage[left=0.5in,top=0.5in,right=0.5in,bottom=0.5in]{geometry} % Document margins
+\usepackage[left=0.6in,top=0.6in,right=0.6in,bottom=0.6in]{geometry} % Document margins
 
 \name{Devin McGloin} % Your name
 \address{(909)~$\cdot$~801~$\cdot$~4429 \\ devin@devinmcgloin.com} % Your phone number and email
@@ -45,11 +45,25 @@
 
 \begin{rSection}{Education}
 
-\begin{rSubsection}{New York University}{May 2017}{BS Computer Science}{New York, NY}
-\item Major GPA 3.3
-\end{rSubsection}
+{\bf New York University} \hfill  May 2017 \\
+BS Computer Science, Major GPA 3.3 \hfill {\em New York, NY}
+\end{rSection}
+
+%----------------------------------------------------------------------------------------
+%	TECHNICAL STRENGTHS SECTION
+%----------------------------------------------------------------------------------------
+
+\begin{rSection}{Technical Strengths}{(In order of fluency)}
+
+\begin{tabular}{ @{} >{\bfseries}l @{\hspace{6ex}} l }
+Computer Languages & Java, Python, Latex, C, Haskell, Lisp, Clojure, Prolog  \\
+Protocols \& APIs & XML, JSON \\
+Tools & Git, Vim, GitHub, Travis CI, Unix Command Line, Maven\\
+\end{tabular}
 
 \end{rSection}
+
+
 %----------------------------------------------------------------------------------------
 %	CURRENT PROJECTS  SECTION
 %----------------------------------------------------------------------------------------
@@ -57,15 +71,14 @@
 \begin{rSection}{Projects}
 
 
-\begin{rSubsection}{UDB}{December 2015 -  Current}{github.com/devinmcgloin/udb}{data-structures, API design}
+\begin{rSubsection}{UDB}{January 2016 - Present}{github.com/devinmcgloin/udb}{data-structures, API design}
 \item Designed a data structure system that dynamically optimizes abstract collections while integrating with the Java Collections Framework. 
-\item Performance Profiling, System Design, Dynamic Optimization
 \end{rSubsection}
 %------------------------------------------------
 
 
-\begin{rSubsection}{Common Algorithms}{October 2015 -  Current}{github.com/devinmcgloin/java-algorithms}{algorithms, data-structures}
-\item Implemented common java algorithms and data-structures, Including sorts, trees, lists, graphs, and simple compression algorithms.
+\begin{rSubsection}{Common Algorithms}{October 2015 - Present}{github.com/devinmcgloin/java-algorithms}{algorithms, data-structures}
+\item Implemented common java algorithms and data-structures, including genetic algorithms, graph searches and simple encryption.
 \end{rSubsection}
 
 
@@ -77,10 +90,8 @@
 
 %------------------------------------------------
 
-\begin{rSubsection}{AIR}{November 2014 -  December 2015}{devinmcgloin.com/AIR}{knowledge representation, API design, performance profiling}
-\item Designed AIR, a knowledge representation system that models content about the world as universally as possible. 
-\item 
-
+\begin{rSubsection}{AIR}{November 2014 - December 2015}{devinmcgloin.com/AIR}{knowledge representation, API design, performance profiling}
+\item Designed AIR, a knowledge representation system that models content about the world in a universal manner. 
 % AIR operated under the assumption that content is key to intelligence. The central idea of the system was to represent content in a universal manner, let that content form a web of relationships, and then parse that web for information useful to NLP, and other tasks.
 \end{rSubsection}
 \end{rSection}
@@ -91,13 +102,13 @@
 \begin{rSection}{Experience}
 
 \begin{rSubsection}{REI}{November 2013 - Nov 2015}{Salesperson}{New York, NY}
-\item Assisted customers with technical expertise regarding a vast number of merchandises and products.
+\item Assisted customers with technical expertise regarding an array of outdoor products.
 \end{rSubsection}
 
 %------------------------------------------------
 
 \begin{rSubsection}{Classic Car Club Manhattan}{September 2013 - May 2014}{Intern}{New York, NY}
-\item Managed a quickly rotating parts catalog, as well as understanding and maintaining the mechanical systems present on modern vehicles and organizing a shop overhaul.
+\item Managed a quickly rotating parts catalog, as well as understanding and maintaining the mechanical systems present on classic vehicles and organizing a shop overhaul.
 \end{rSubsection}
 
 %------------------------------------------------
@@ -109,18 +120,10 @@
 
 \end{rSection}
 
-%----------------------------------------------------------------------------------------
-%	TECHNICAL STRENGTHS SECTION
-%----------------------------------------------------------------------------------------
 
-\begin{rSection}{Technical Strengths}{In order of fluency}
+\begin{rSection}{Interests}
 
-\begin{tabular}{ @{} >{\bfseries}l @{\hspace{6ex}} l }
-Computer Languages & Java, Python, Latex, C  \\
-Protocols \& APIs & XML, JSON \\
-Tools & Git, Vim, GitHub, Travis CI, Unix Command Line, Maven\\
-Exposure to & Haskell, Lisp, Clojure, Prolog, Bash\\
-\end{tabular}
+Backpacking, Functional Programming, Photography, Logic Programming
 
 \end{rSection}
 
