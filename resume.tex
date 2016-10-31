@@ -1,4 +1,4 @@
-  %%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
 % Medium Length Professional CV
 % LaTeX Template
 % Version 2.0 (8/5/13)
@@ -25,9 +25,9 @@
 \usepackage[left=0.6in,top=0.6in,right=0.6in,bottom=0.6in]{geometry} % Document margins
 \usepackage{hyperref}
 
-\name{Devin McGloin} % Your name
-\address{909~$\cdot$~801~$\cdot$~4429 \\ \href{mailto:devin@devinmcgloin.com}{devin@devinmcgloin.com}} % Your phone number and email
-\address{\href{https://devinmcgloin.com}{devinmcgloin.com} \\ \href{https://github.com/devinmcgloin}{github.com/devinmcgloin}} % Your phone number and email
+\name{Devin McGloin}
+\address{909~$\cdot$~801~$\cdot$~4429 \\ \href{mailto:devin@devinmcgloin.com}{devin@devinmcgloin.com}}
+\address{\href{https://devinmcgloin.com}{devinmcgloin.com} \\ \href{https://github.com/devinmcgloin}{github.com/devinmcgloin}}
 
 \begin{document}
 
@@ -47,7 +47,7 @@
 \begin{rSection}{Education}
 
 {\bf New York University} \hfill  May 2017 \\
-BS Computer Science \hfill {\em New York, NY}
+BS Computer Science, Major GPA: 3.2 \hfill {\em New York, NY}
 \end{rSection}
 
 %----------------------------------------------------------------------------------------
@@ -57,9 +57,9 @@ BS Computer Science \hfill {\em New York, NY}
 \begin{rSection}{Technical Strengths}{(In order of fluency)}
 
 \begin{tabular}{ @{} >{\bfseries}l @{\hspace{6ex}} l }
-Languages & Go, Python, C, Java, Latex, Racket, Haskell, Prolog\\
+Languages & Go, Python, C, Java, Latex, Racket, Haskell\\
 Protocols \& APIs & HTTP, REST, SSH\\
-Tools & Unix Command Line, Linux, Git, Vim, Maven\\
+Tools & Linux, Git, Vim, Maven\\
 Services & AWS, Heroku, GitHub, Travis CI\\
 Databases & MongoDB, MySQL, Redis\\
 \end{tabular}
@@ -74,45 +74,51 @@ Databases & MongoDB, MySQL, Redis\\
 \begin{rSection}{Projects}
 
 
-\begin{rSubsection}{Sprioc}{June 2016 - Present}{\href{https://sprioc.xyz}{sprioc.xyz}}{API Design, Golang, Data Modeling, Web Design}
-\item Implemented core backend services for photosharing functionality with image storage in AWS S3 and image metadata stored in mongoDB.
-\item Created query validation system for advanced searching with simple filters as well as more complex geographic searches.
+\begin{rSubsection}{Sprioc}{June 2016 - Present}{\href{https://sprioc.xyz}{sprioc.xyz}}{API Design, Golang, Data Modeling}
+\item Designed hypermedia API for image uploading, tagging and various other social graph operations.
+\item Implemented API spec from the ground up using Go, Mongo and Redis with an extensible permission model.
+\item Integrated with various computer vision and geolocation services in order make better use of photo metadata.
+\item Created query validation system for advanced searching with simple filters as well as complex geographic searches.
 \end{rSubsection}
 
 %------------------------------------------------
 
 \begin{rSubsection}{Advent}{May 2015 - June 2016}{\href{https://devinmcgloin.com/advent}{devinmcgloin.com/advent}}{Webservices, HTTP, Cloud Computing}
 \item Created Advent, a port of the classic terminal game Collosal Cave Adventure to Facebook Messenger.
-\item Developed a wrapper of the \href{https://smooch.io}{smooch.io} API and released it under the MIT License.
+\item Developed a wrapper of the \href{https://smooch.io}{smooch.io} messenging API and released it under the MIT License.
 \end{rSubsection}
 
 %------------------------------------------------
 
 \begin{rSubsection}{AIR}{November 2014 - December 2015}{\href{https://devinmcgloin.com/AIR}{devinmcgloin.com/AIR}}{Knowledge Representation, API design, Performance Profiling}
-\item Designed AIR, a knowledge representation system that models content about the world in a universal manner.
-% AIR operated under the assumption that content is key to intelligence. The central idea of the system was to represent content in a universal manner, let that content form a web of relationships, and then parse that web for information useful to NLP, and other tasks.
+\item Designed AIR, a knowledge representation system that models actions and content in the world.
+\item Implemented a simple prototype of the system that handles plurality, ownership, inheritance and type classes.
+% \item Developed
 \end{rSubsection}
 \end{rSection}
 
-\begin{rSection}{Experience}
+%------------------------------------------------
+
+\begin{rSection}{Experience \& Awards}
 
 \begin{rSubsection}{Union Realtime}{August 2016 - Present}{Intern}{New York, NY}
 % \item Developed anomily detection systems for timeseries data sets.
 \item Created means for inspecting the validity of individual datums across the entire database.
 \item Took ownership and refactored core code base for simpler extensibility and better error detection.
+\item Investigated and resolved data integrity errors, resulting in more accurate data for clients.
 \end{rSubsection}
 
 %------------------------------------------------
 
-\begin{rSubsection}{REI}{November 2013 - Dec 2015}{Salesperson}{New York, NY}
-\item Assisted customers with technical expertise regarding an array of outdoor products.
-\end{rSubsection}
+%\begin{rSubsection}{REI}{November 2013 - Dec 2015}{Salesperson}{New York, NY}
+%\item Assisted customers with technical expertise regarding an array of outdoor products.
+%\end{rSubsection}
 
 %------------------------------------------------
 
 \begin{rSubsection}{Boy Scouts of America}{October 2009 - May 2013}{Eagle Scout}{Redlands, CA}
 \item Organized and completed a service project consisting of over 600 volunteer hours and donations of \$4,000.
-\item Procured donations from private and corporate  donors including Esri, Home Depot, Hines and Scotts.
+%\item Procured donations from private and corporate  donors including Esri, Home Depot, Hines and Scotts.
 \end{rSubsection}
 
 \end{rSection}
@@ -120,7 +126,7 @@ Databases & MongoDB, MySQL, Redis\\
 
 \begin{rSection}{Interests}
 
-Backpacking, Photography, Distributed Systems, Programming Languages
+Distributed Systems, Programming Languages, Backpacking, Photography
 
 \end{rSection}
 
