@@ -1,4 +1,4 @@
-%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+  %%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
 % Medium Length Professional CV
 % LaTeX Template
 % Version 2.0 (8/5/13)
@@ -22,7 +22,7 @@
 
 \documentclass{resume} % Use the custom resume.cls style
 
-\usepackage[left=0.6in,top=0.6in,right=0.6in,bottom=0.6in]{geometry} % Document margins
+\usepackage[left=0.4in,top=0.4in,right=0.4in,bottom=0.4in]{geometry} % Document margins
 \usepackage{hyperref}
 
 \name{Devin McGloin}
@@ -47,25 +47,8 @@
 \begin{rSection}{Education}
 
 {\bf New York University} \hfill  May 2017 \\
-BS Computer Science, Major GPA: 3.2 \hfill {\em New York, NY}
+BS Computer Science \hfill {\em New York, NY}
 \end{rSection}
-
-%----------------------------------------------------------------------------------------
-%	TECHNICAL STRENGTHS SECTION
-%----------------------------------------------------------------------------------------
-
-\begin{rSection}{Technical Strengths}{(In order of fluency)}
-
-\begin{tabular}{ @{} >{\bfseries}l @{\hspace{6ex}} l }
-Languages & Go, Python, C, Java, Latex, Racket, Haskell\\
-Protocols \& APIs & HTTP, REST, SSH\\
-Tools & Linux, Git, Vim, Maven\\
-Services & AWS, Heroku, GitHub, Travis CI\\
-Databases & MongoDB, MySQL, Redis\\
-\end{tabular}
-
-\end{rSection}
-
 
 %----------------------------------------------------------------------------------------
 %	CURRENT PROJECTS  SECTION
@@ -74,26 +57,26 @@ Databases & MongoDB, MySQL, Redis\\
 \begin{rSection}{Projects}
 
 
-\begin{rSubsection}{Sprioc}{June 2016 - Present}{\href{https://sprioc.xyz}{sprioc.xyz}}{API Design, Golang, Data Modeling}
+\begin{rSubsection}{Fokal}{June 2016 - Present}{\href{https://fok.al}{fok.al}}{API Design, Golang, Web design}
 \item Designed hypermedia API for image uploading, tagging and various other social graph operations.
-\item Implemented API spec from the ground up using Go, Mongo and Redis with an extensible permission model.
-\item Integrated with various computer vision and geolocation services in order make better use of photo metadata.
-\item Created query validation system for advanced searching with simple filters as well as complex geographic searches.
+\item Implemented API spec from the ground up using Go, PostgreSQL and Redis with an extensible permission model.
+\item Integrated with various computer vision and geo-location services in order make better use of image metadata.
+\item Designed and implemented mobile first web interface to API functionality using React, ES6 and Webpack.
 \end{rSubsection}
 
 %------------------------------------------------
 
 \begin{rSubsection}{Advent}{May 2015 - June 2016}{\href{https://devinmcgloin.com/advent}{devinmcgloin.com/advent}}{Webservices, HTTP, Cloud Computing}
-\item Created Advent, a port of the classic terminal game Colossal Cave Adventure to Facebook Messenger.
+\item Created Advent, a port of the classic terminal game Collosal Cave Adventure to Facebook Messenger and Telegram.
 \item Developed a wrapper of the \href{https://smooch.io}{smooch.io} messaging API and released it under the MIT License.
 \end{rSubsection}
 
 %------------------------------------------------
 
-\begin{rSubsection}{AIR}{November 2014 - December 2015}{\href{https://devinmcgloin.com/AIR}{devinmcgloin.com/AIR}}{Knowledge Representation, API design, Performance Profiling}
+\begin{rSubsection}{AIR}{November 2014 - December 2015}{\href{https://devinmcgloin.com/AIR}{devinmcgloin.com/air}}{Knowledge Representation, API design, Performance Profiling}
 \item Designed AIR, a knowledge representation system that models actions and content in the world.
 \item Implemented a simple prototype of the system that handles plurality, ownership, inheritance and type classes.
-% \item Developed
+% \item Developed 
 \end{rSubsection}
 \end{rSection}
 
@@ -101,7 +84,7 @@ Databases & MongoDB, MySQL, Redis\\
 
 \begin{rSection}{Experience \& Awards}
 
-\begin{rSubsection}{Union Realtime}{August 2016 - Dec 2016}{Intern}{New York, NY}
+\begin{rSubsection}{Union Realtime}{August 2016 - December 2016}{Intern}{New York, NY}
 % \item Developed anomily detection systems for timeseries data sets.
 % \item Created means for inspecting the validity of individual datums across the entire database.
 \item Took ownership and refactored core code base for simpler extensibility and better error detection.
@@ -110,10 +93,14 @@ Databases & MongoDB, MySQL, Redis\\
 
 %------------------------------------------------
 
-%\begin{rSubsection}{REI}{November 2013 - Dec 2015}{Salesperson}{New York, NY}
-%\item Assisted customers with technical expertise regarding an array of outdoor products.
-%\end{rSubsection}
+\begin{rSubsection}{REI}{November 2013 - Dec 2015}{Salesperson}{New York, NY}
+\item Assisted customers with technical expertise regarding an array of outdoor products.
+\end{rSubsection}
 
+\begin{rSubsection}{Classic Car Club Manahattan}{September 2013 - May 2104}{Intern}{New York, NY}
+\item Learned the foundations of system troubleshooting, preventative maintenance as well as organizing a shop overhaul.
+
+\end{rSubsection}
 %------------------------------------------------
 
 \begin{rSubsection}{Boy Scouts of America}{October 2009 - May 2013}{Eagle Scout}{Redlands, CA}
@@ -123,10 +110,26 @@ Databases & MongoDB, MySQL, Redis\\
 
 \end{rSection}
 
+%----------------------------------------------------------------------------------------
+%	TECHNICAL STRENGTHS SECTION
+%----------------------------------------------------------------------------------------
+
+\begin{rSection}{Technical Skills}{(In order of fluency)}
+
+\begin{tabular}{ @{} >{\bfseries}l @{\hspace{6ex}} l }
+Languages & Go, Python, C, Java, Latex, Racket, Haskell\\
+Tools & Linux, Git, Vim, Maven\\
+Services & AWS, Heroku, GitHub, Travis CI\\
+Databases & MySQL, PostgreSQL, Redis, ElasticSearch\\
+\end{tabular}
+
+\end{rSection}
+
+
 
 \begin{rSection}{Interests}
 
-Distributed Systems, Programming Languages, Backpacking, Photography
+Programming Languages, Backpacking, Photography, Design, Visited 35 US States \& 6 Canadian Provinces
 
 \end{rSection}
 
@@ -143,3 +146,4 @@ Distributed Systems, Programming Languages, Backpacking, Photography
 %----------------------------------------------------------------------------------------
 
 \end{document}
+
